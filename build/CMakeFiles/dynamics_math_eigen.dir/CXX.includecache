@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/thanos/Desktop/DynamicsMathEigen/include/dynamics_math_eigen.h
+iostream
+-
+vector
+-
+eigen3/Eigen/Dense
+-
+
+/home/thanos/Desktop/DynamicsMathEigen/src/dynamics_math_eigen.cpp
+../include/dynamics_math_eigen.h
+/home/thanos/Desktop/DynamicsMathEigen/include/dynamics_math_eigen.h
+
